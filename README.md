@@ -2,6 +2,7 @@
 
 **Author:** Thijs Missiaen (ORCID: [0009-0007-3678-0810](https://orcid.org/0009-0007-3678-0810))  
 **Contact:** thijs.missiaen@gmail.com  
+**DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24249688.svg)](https://doi.org/10.5281/zenodo.24249688)  
 **Challenge:** Exactory Grand Challenge on design-time learning-rate selection for generalised Bayesian experimental design (anchored on Barlas, Sloman, and Kaski, `arXiv:2511.07671`)
 
 ## Overview

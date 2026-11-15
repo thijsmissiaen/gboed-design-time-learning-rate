@@ -3,6 +3,8 @@
   "name": "gboed-lr-auditor",
   "title": "GatedC G-LHW: Design-Time Learning-Rate Selection and Auditing for GBOED",
   "version": "1.0.0",
+  "doi": "10.5281/zenodo.24249688",
+  "zenodo_url": "https://zenodo.org/records/24249688",
   "repository": "https://github.com/thijsmissiaen/gboed-design-time-learning-rate",
   "author": {
     "name": "Thijs Missiaen",
