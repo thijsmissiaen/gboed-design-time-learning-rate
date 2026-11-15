@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Design-Time Learning-Rate Selection and Dispersion-Gated Tempering for Generalised Bayesian Experimental Design"
+message: "If you use this manuscript, software package, or verification suite, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Missiaen"
+    given-names: "Thijs"
+    affiliation: "Independent Researcher, Belgium"
+    orcid: "https://orcid.org/0009-0007-3678-0810"
+    email: "thijs.missiaen@gmail.com"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-11-15"
+repository-code: "https://github.com/thijsmissiaen/gboed-design-time-learning-rate"
+abstract: >-
+  Presents GatedC G-LHW, a frozen design-time and online learning-rate selection
+  and dispersion-gated tempering rule for generalised Bayesian optimal experimental
+  design (GBOED) under predictive-centered inverse multi-quadric weighted score
+  matching (PredC IMQ-WSM), anchored on Barlas, Sloman, and Kaski (arXiv:2511.07671).
+keywords:
+  - generalised Bayesian inference
+  - Bayesian optimal experimental design
+  - weighted score matching
+  - learning-rate selection
+  - prior-data conflict
+references:
+  - type: article
+    authors:
+      - family-names: "Barlas"
+        given-names: "Yorgos"
+      - family-names: "Sloman"
+        given-names: "Sabina J."
+      - family-names: "Kaski"
+        given-names: "Samuel"
+    title: "Generalised Bayesian Optimal Experimental Design"
+    year: 2025
+    url: "https://arxiv.org/abs/2511.07671"

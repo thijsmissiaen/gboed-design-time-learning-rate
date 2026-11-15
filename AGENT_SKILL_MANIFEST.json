@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "name": "gboed-lr-auditor",
+  "title": "GatedC G-LHW: Design-Time Learning-Rate Selection and Auditing for GBOED",
+  "version": "1.0.0",
+  "repository": "https://github.com/thijsmissiaen/gboed-design-time-learning-rate",
+  "author": {
+    "name": "Thijs Missiaen",
+    "affiliation": "Independent Researcher, Belgium",
+    "orcid": "0009-0007-3678-0810",
+    "email": "thijs.missiaen@gmail.com"
+  },
+  "license": "MIT",
+  "skill_entrypoint": ".agents/skills/gboed-lr-auditor/SKILL.md",
+  "package": "src/gboed_lr",
+  "paper": {
+    "tex": "paper/main.tex",
+    "pdf": "paper/main.pdf",
+    "bib": "paper/references.bib",
+    "pages": 18
+  },
+  "verification_scripts": [
+    "scripts/verify_theorem_and_barlas_audit.py",
+    "scripts/run_all_benchmarks.py",
+    "scripts/generate_figures.py",
+    "tests/test_invariants.py"
+  ],
+  "frozen_rule": {
+    "name": "GatedC G-LHW",
+    "p_imq": 1.0,
+    "homoscedasticity_rtol": 1e-06,
+    "c_ratios": [2.0, 5.0],
+    "omega0_over_sigma2": {
+      "c2": 0.5305122671904373,
+      "c5": 0.5150662973154196
+    },
+    "rate_envelope_over_sigma2": [0.1287665743288549, 1.0610245343808746],
+    "annealed_lambda_ladder": [1.0, 0.5, 0.25, 0.1, 0.0],
+    "chi2_quantiles": {
+      "scale_switch": 0.85,
+      "tempering_gate": 0.95
+    }
+  }
+}

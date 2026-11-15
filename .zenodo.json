@@ -1,0 +1,22 @@
+{
+  "title": "Design-Time Learning-Rate Selection and Dispersion-Gated Tempering for Generalised Bayesian Experimental Design",
+  "description": "Reproducible software package, 50-digit python-flint verification scripts, CUDA GPU benchmark suite, and 18-page AMS-LaTeX manuscript for GatedC G-LHW: design-time homoscedasticity and scale certification, multivariate Stein-LHW quadrature calibration, pure-Bayesian AnnealedPredC continuation, and online chi-squared dispersion gating in GBOED.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "keywords": [
+    "generalised Bayesian experimental design",
+    "weighted score matching",
+    "inverse multi-quadric kernel",
+    "learning-rate calibration",
+    "prior-data conflict"
+  ]
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gboed-lr"
+version = "1.0.0"
+description = "Design-time learning-rate calibration and online gating for generalised Bayesian optimal experimental design"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Thijs Missiaen", email = "thijs.missiaen@gmail.com" }
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "torch>=2.1",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
